@@ -88,5 +88,24 @@
 - We obtained Accuracy 0.8105 for the train data and Accuracy 0.8140 for the validation data.
 
 <p align="center">
-   <img src="https://github.com/lilosa88/Dogs-vs-Cats/blob/main/Images/Screenshot%20from%202021-05-22%2007-54-17.png" width="360" height="480">
+   <img src="https://github.com/lilosa88/Dogs-vs-Cats/blob/main/Images/Screenshot%20from%202021-05-22%2008-08-22.png" width="360" height="480">
   </p> 
+  
+ 
+#### Fourth model: Learned Neural Network with convolution, pooling and dropout making use of Imagen augmentation. 
+
+- We make use of a pre-trained model that we obtained from InceptionV3. To this we add the following layers:
+  - One flatten layer: It turns the images into a 1 dimensional set.
+  - One Dropout layer: with 20% of the neurons that will be removed.
+  - Two Dense layers: This adds a layer of neurons. Each layer of neurons has an activation function to tell them what to do. Therefore, the first Dense layer           consisted in 1024 neurons with relu as an activation function. The second, have 1 neurons and sigmoid as activation function. 
+  
+- We built this model using RMSprop optimizer with lr=0.001 and binary_crossentropy as loss function.
+
+- The number of epochs=100
+
+- We obtained Accuracy 0.9610 for the train data and Accuracy 0.9590 for the validation data.
+
+<p align="center">
+   <img src="https://github.com/lilosa88/Dogs-vs-Cats/blob/main/Images/Screenshot%20from%202021-05-22%2008-08-22.png" width="360" height="480">
+  </p> 
+    
