@@ -24,7 +24,7 @@
 
 - The images looks like:
   <p align="center">
-   <img src="https://github.com/lilosa88/Dogs-vs-Cats/blob/main/Images/Screenshot%20from%202021-05-22%2006-57-57.png" width="720" height="480">
+   <img src="https://github.com/lilosa88/Dogs-vs-Cats/blob/main/Images/Screenshot%20from%202021-05-22%2006-57-57.png" width="760" height="480">
   </p> 
   
 # Feature engineering
