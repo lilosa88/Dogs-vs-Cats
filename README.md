@@ -21,10 +21,10 @@
 # Data description  
 
 - Dogs vs Cats is a dataset of 1500 images for each dogs and cats. Each image have a different sizes and is unlabel.
-- 
+
 - The images looks like:
   <p align="center">
-   <img src="https://github.com/lilosa88/Horse-or-Human/blob/main/Images/Captura%20de%20Pantalla%202021-05-18%20a%20la(s)%2017.17.26.png" width="720" height="480">
+   <img src="https://github.com/lilosa88/Dogs-vs-Cats/blob/main/Images/Screenshot%20from%202021-05-22%2006-57-57.png" width="720" height="480">
   </p> 
   
 # Feature engineering
