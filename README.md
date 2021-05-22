@@ -51,7 +51,7 @@
 - We obtained Accuracy 0.9875 for the train data and Accuracy 0.7050 for the validation data. As we can see we obtained a bag accuracy in validation, this is the result of overfitting.
 
  <p align="center">
-   <img src="https://github.com/lilosa88/Dogs-vs-Cats/blob/main/Images/Screenshot%20from%202021-05-22%2006-57-57.png" width="760" height="480">
+   <img src="https://github.com/lilosa88/Dogs-vs-Cats/blob/main/Images/Screenshot%20from%202021-05-22%2007-12-00.png" width="760" height="480">
   </p> 
   
 #### Second model: Neural Network with convolution and pooling
