@@ -106,6 +106,6 @@
 - We obtained Accuracy 0.9610 for the train data and Accuracy 0.9590 for the validation data.
 
 <p align="center">
-   <img src="https://github.com/lilosa88/Dogs-vs-Cats/blob/main/Images/Screenshot%20from%202021-05-22%2008-22-11.png" width="360" height="480">
+   <img src="https://github.com/lilosa88/Dogs-vs-Cats/blob/main/Images/Screenshot%20from%202021-05-22%2008-22-11.png" width="360" height="360">
   </p> 
     
