@@ -73,15 +73,20 @@
    <img src="https://github.com/lilosa88/Dogs-vs-Cats/blob/main/Images/Screenshot%20from%202021-05-22%2007-54-17.png" width="360" height="480">
   </p> 
   
-#### Third model: Neural Network with convolution and pooling
+#### Third model: Neural Network with convolution, pooling and dropout making use of Imagen augmentation
 
 - This model was created using tf.keras.models.Sequential, which defines a SEQUENCE of layers in the neural network. These sequence of layers used were the following:
-  - Three Convolution layer with a MaxPooling layer which is then designed to compress the image, while maintaining the content of the features that were                highlighted by the convlution. By specifying (3,3) for the MaxPooling, the effect is to quarter the size of the image.
+  - Four Convolution layers with a corresponding MaxPooling layer each one which is then designed to compress the image, while maintaining the content of the           features that were highlighted by the convlution.
+  - One Dropout layer with 50% of neurons that will be remove.
   - One flatten layer: It turns the images into a 1 dimensional set.
   - Two Dense layers: This adds a layer of neurons. Each layer of neurons has an activation function to tell them what to do. Therefore, the first Dense layer           consisted in 512 neurons with relu as an activation function. The second, have 1 neurons and sigmoid as activation function. 
-
+  
 - We built this model using RMSprop optimizer with lr=0.001 and binary_crossentropy as loss function.
 
-- The number of epochs=15
+- The number of epochs=100
 
-- We obtained Accuracy 0.9555 for the train data and Accuracy 0.7930 for the validation data.
+- We obtained Accuracy 0.8105 for the train data and Accuracy 0.8140 for the validation data.
+
+<p align="center">
+   <img src="https://github.com/lilosa88/Dogs-vs-Cats/blob/main/Images/Screenshot%20from%202021-05-22%2007-54-17.png" width="360" height="480">
+  </p> 
